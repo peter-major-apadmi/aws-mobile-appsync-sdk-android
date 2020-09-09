@@ -17,6 +17,7 @@ buildscript {
 }
 
 allprojects {
+    group = 'com.amazonaws'
     repositories {
         maven {
             url "https://plugins.gradle.org/m2/"
